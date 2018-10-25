@@ -105,7 +105,7 @@ img {
   height:90vh;
 }
 
-html,body#modified{
+html#modified,body#modified{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fc1bf8+0,ff1414+100 */
 background: rgb(252,27,248); /* Old browsers */
 background: -moz-linear-gradient(left, rgba(252,27,248,0.5) 0%, rgba(255,20,20,1) 100%); /* FF3.6-15 */
