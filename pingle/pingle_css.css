@@ -95,15 +95,15 @@ border-bottom: 3px solid white;
 
 
 
-.jumbotron#first_jumbo{
+/* .jumbotron#first_jumbo{
   background-color: white !important;
-  background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)),
+  background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)), */
   /* url(https://source.unsplash.com/1600x1050/?nature); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
   color:white !important;
   height:90vh;
-}
+} */
 
 html#modified,body#modified{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fc1bf8+0,ff1414+100 */
@@ -119,6 +119,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1bf8', end
   background-attachment: fixed; */
   /* color:white !important; */
   /* height:100vh; */
+}
+
+
+
+.jumbotron#first_jumbo{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#12b6ad+30,0063ef+100 */
+background: rgb(18,182,173); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(18,182,173,1) 30%, rgba(0,99,239,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(18,182,173,1) 30%,rgba(0,99,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(18,182,173,1) 30%,rgba(0,99,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12b6ad', endColorstr='#0063ef',GradientType=1 ); /* IE6-9 */
+height:90vh;
 }
 
 .shard{
