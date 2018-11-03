@@ -133,11 +133,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12b6ad', end
 height:90vh;
 }
 
+
+.jumbotron#first_jumbo1{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#12b6ad+30,0063ef+100 */
+background: rgb(18,182,173); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(18,182,173,1) 30%, rgba(0,99,239,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(18,182,173,1) 30%,rgba(0,99,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(18,182,173,1) 30%,rgba(0,99,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12b6ad', endColorstr='#0063ef',GradientType=1 ); /* IE6-9 */
+
+}
+
 .shard{
   background-color: white !important;
   padding: 20px !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+.shard1{
+  /* @screen-md-min to 992px */
+  width:50vh;
+  height:230px;
+  text-align: center;
+  background-color: white !important;
+  padding: 10px !important;
+  margin: 10px !important;
+}
+
+
+.shard1:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 /********************Code for transparent_to_solid_navbar effect***************/
 /******************************************************************************/
@@ -193,6 +221,13 @@ height:90vh;
   height:200px;
   width:200px;
 }
+
+#about_image{
+  border-radius: 50%;
+  height:100px;
+  width:100px;
+}
+
 footer{
   background-color: rgba(20,182,173, 1);
 
