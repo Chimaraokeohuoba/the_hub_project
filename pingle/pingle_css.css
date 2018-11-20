@@ -54,7 +54,7 @@ img {
 .nav.navbar-nav.navbar-right li a.current{
   color: white;
   font-weight: bolder;
-/* border-bottom: 3px solid red; */
+border-bottom: 3px solid white;
 }
 
 
@@ -62,7 +62,7 @@ img {
   color: white;
   /* color: rgba(20,182,173, 1); */
   font-weight: bolder;
-  /* border-bottom: 3px solid red; */
+  border-bottom: 3px solid white;
   background-color:rgba(0,225,0,0);
   /* padding-top: 12px;
   padding-bottom: 12px; */
@@ -71,6 +71,10 @@ img {
 
 .nav.navbar-nav.navbar-right li a{
   color: white;
+}
+
+.nav.navbar-nav.navbar-right li a#profile{
+  color: black;
 }
 
 
@@ -95,15 +99,15 @@ img {
 
 
 
-.jumbotron#first_jumbo{
+/* .jumbotron#first_jumbo{
   background-color: white !important;
-  background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)),
+  background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)), */
   /* url(https://source.unsplash.com/1600x1050/?nature); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
   color:white !important;
   height:90vh;
-}
+} */
 
 html#modified,body#modified{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fc1bf8+0,ff1414+100 */
@@ -121,11 +125,74 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1bf8', end
   /* height:100vh; */
 }
 
+
+
+.jumbotron#first_jumbo{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#02c3cd+0,207cca+44,207cca+44,207cca+63,7d2be8+100 */
+  background: rgb(2,195,205); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(2,195,205,1) 0%, rgba(32,124,202,1) 44%, rgba(32,124,202,1) 44%, rgba(32,124,202,1) 63%, rgba(125,43,232,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(2,195,205,1) 0%,rgba(32,124,202,1) 44%,rgba(32,124,202,1) 44%,rgba(32,124,202,1) 63%,rgba(125,43,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(2,195,205,1) 0%,rgba(32,124,202,1) 44%,rgba(32,124,202,1) 44%,rgba(32,124,202,1) 63%,rgba(125,43,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02c3cd', endColorstr='#7d2be8',GradientType=1 ); /* IE6-9 */
+  height:90vh;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#12b6ad+30,0063ef+100 */
+/* background: rgb(18,182,173); /* Old browsers */ */
+/* background: -moz-linear-gradient(left, rgba(18,182,173,1) 30%, rgba(0,99,239,1) 100%); /* FF3.6-15 */ */
+/* background: -webkit-linear-gradient(left, rgba(18,182,173,1) 30%,rgba(0,99,239,1) 100%); /* Chrome10-25,Safari5.1-6 */ */
+/* background: linear-gradient(to right, rgba(18,182,173,1) 30%,rgba(0,99,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ */
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12b6ad', endColorstr='#0063ef',GradientType=1 ); /* IE6-9 */ */
+
+}
+
+.v-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+.jumbotron#first_jumbo1{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#02c3cd+0,207cca+44,207cca+44,207cca+63,7d2be8+100 */
+  background: rgb(2,195,205); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(2,195,205,1) 0%, rgba(32,124,202,1) 44%, rgba(32,124,202,1) 44%, rgba(32,124,202,1) 63%, rgba(125,43,232,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(2,195,205,1) 0%,rgba(32,124,202,1) 44%,rgba(32,124,202,1) 44%,rgba(32,124,202,1) 63%,rgba(125,43,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(2,195,205,1) 0%,rgba(32,124,202,1) 44%,rgba(32,124,202,1) 44%,rgba(32,124,202,1) 63%,rgba(125,43,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02c3cd', endColorstr='#7d2be8',GradientType=1 ); /* IE6-9 */
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#12b6ad+30,0063ef+100 */
+/* background: rgb(18,182,173); /* Old browsers */ */
+/* background: -moz-linear-gradient(left, rgba(18,182,173,1) 30%, rgba(0,99,239,1) 100%); /* FF3.6-15 */ */
+/* background: -webkit-linear-gradient(left, rgba(18,182,173,1) 30%,rgba(0,99,239,1) 100%); /* Chrome10-25,Safari5.1-6 */ */
+/* background: linear-gradient(to right, rgba(18,182,173,1) 30%,rgba(0,99,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ */
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12b6ad', endColorstr='#0063ef',GradientType=1 ); /* IE6-9 */ */
+}
+
 .shard{
   background-color: white !important;
   padding: 20px !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+.shard1{
+  /* @screen-md-min to 992px */
+  width:50vh;
+  height:230px;
+  text-align: center;
+  background-color: white !important;
+  padding: 10px !important;
+  margin: 10px !important;
+}
+
+
+.shard1:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 /********************Code for transparent_to_solid_navbar effect***************/
 /******************************************************************************/
@@ -181,6 +248,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1bf8', end
   height:200px;
   width:200px;
 }
+
+#about_image{
+  border-radius: 50%;
+  height:100px;
+  width:100px;
+}
+
 footer{
   background-color: rgba(20,182,173, 1);
 
@@ -214,6 +288,96 @@ z-index: 100;
 
 }
 
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height:550px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.contact_button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.about_anchor {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.contact_button:hover{
+    opacity: 0.7;
+}
+
+
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav.navbar-nav.navbar-right li a#no_border_bottom{
+  padding: 0px;
+  border-bottom: none;
+  vertical-align: middle;
+}
+
+.nav.navbar-nav.navbar-right li a#notif_no_border_bottom{
+    border-bottom: none;
+}
+
+
+ul#hori_list li {
+    display:inline-block;
+}
+
+.navbar-nav#profile_nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav#profile_nav li {
+     float: none;
+     display: inline-block;
+   }
+
+   .profile_stat :hover{
+     color: rgba(20,182,173, 1);
+   }
+
+
+   .nav.navbar-nav#profile_nav li a.current{
+     color: rgba(20,182,173, 1);
+     font-weight: bolder;
+   /* border-bottom: */
+   }
+
+
+   .nav.navbar-nav#profile_nav li a:hover{
+     color: rgba(20,182,173, 1);
+     /* color: rgba(20,182,173, 1); */
+     font-weight: bolder;
+     /* border-bottom: */
+     /* padding-top: 12px;
+     padding-bottom: 12px; */
+   }
 /* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
 
